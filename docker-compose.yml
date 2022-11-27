@@ -13,5 +13,15 @@ services:
     ports:
       - 3306:3306
 
+  wordpress:
+    build: ./wordpress
+    restart: always
+    depends_on:
+      - db
+    env_file:
+      - ./common_db.env
+    ports:
+      - 80:80
+  
 volumes:
   mysql_data:
