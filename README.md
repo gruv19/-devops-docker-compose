@@ -1,7 +1,7 @@
 # ПРАКТИКА ПО DOCKER COMPOSE
 
 ## 1. Требования
-- Docker v2.12.2;
+- Docker Compose v2.12.2;
 
 ## 2. Подготовка переменных окружения
 Создать файл common_db.env и добвить в него имя БД, пользователя и пароль:
@@ -17,5 +17,5 @@ MYSQL_ROOT_PASSWORD=ruslan
 ```
 ## 4. Запуск проекта
 ```bash
-docker-compose up -
+docker-compose up -d
 ```
