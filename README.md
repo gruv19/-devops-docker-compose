@@ -13,7 +13,7 @@ MYSQL_PASSWORD=
 
 Создать файл root_db.env и добвить пароль для root:
 ```sh
-MYSQL_ROOT_PASSWORD=ruslan
+MYSQL_ROOT_PASSWORD=
 ```
 ## 3. Подготовка файла wp-config.php
 Перейти [по ссылке](https://api.wordpress.org/secret-key/1.1/salt/). Соодержимое страницы вставить в ./wordpress/wp-config.php.
