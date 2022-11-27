@@ -15,6 +15,9 @@ MYSQL_PASSWORD=
 ```sh
 MYSQL_ROOT_PASSWORD=ruslan
 ```
+## 3. Подготовка файла wp-config.php
+Перейти [по ссылке](https://api.wordpress.org/secret-key/1.1/salt/). Соодержимое страницы вставить в ./wordpress/wp-config.php.
+
 ## 4. Запуск проекта
 ```bash
 docker-compose up -d
